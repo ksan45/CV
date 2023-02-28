@@ -1,0 +1,33 @@
+body {
+    background-color: #d3ffce;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+hr {
+    border: 1px dashed #000000;
+}
+h1 {
+    color: #3f613f;
+}
+footer {
+    margin-bottom: 10px;
+    vertical-align: bottom;
+}
+
+.redbox {
+    background-color: #FF0000;
+    height: 200px; 
+    width: 200px;
+}
+.bluebox {
+    background-color: #0000FF;
+    height: 200px; 
+    width: 200px;
+}
+
+#cacti {
+    width: 100%;
+    position: fixed; 
+    bottom: 0; 
+    left: 0;
+}
