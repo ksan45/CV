@@ -2,21 +2,83 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Site under construction</title>
+    <meta name="description" content="K. Sanchez Portfolio; " />
+    <title>Kimberly Sanchez || Home Page</title>
+    <link rel="stylesheet" href="css/styles.css"> 
+    <link rel="icon" href="favicon.png"> 
 </head>
 <body>
-    <h1>Kimberly Sanchez</h1>
-    <i style="line-height: 0%;">
-    <h5>Professional Worry Wart</h5>
-    <h5>Department of Homeland Worrying</h5>
-    <h5>Paranoia Industries</h5>
-    <h5>Austin, TX 787XX</h5>
-    </i>
-    <br>
-    <p>Is the site ever <i>not</i> under <em>construction</em>? Nobody knows......<br>
-        <a href="hobbies.html">Hobbies Page</a>
-    </p> 
+    <header>
+        <h1>Kimberly Sanchez</h1>
+        <i style="line-height: 0%;">
+        <h5>Professional Worry Wart</h5>
+        <h5>Department of Homeland Worrying</h5>
+        <h5>Paranoia Industries</h5>
+        <h5>Austin, TX 787XX</h5>
+        </i>
+        <br>
+        <hr>
+    </header>
+    <main>
+        <p>Main Body Text Here</p>
+        <figure>
+            <blockquote cite="https://www.huxley.net/bnw/four.html">
+                <p>Words can be like X-rays, if you use them properly—they’ll go through anything. You read and you’re pierced.</p>
+            </blockquote>
+            <figcaption>—Aldous Huxley, <cite>Brave New World</cite></figcaption>
+        </figure>
+        <hr>
+        <p>Cryptids of Cornwall:</p>
+        <dl>
+            <dt>Beast of Bodmin</dt>
+            <dd>A large feline inhabiting Bodmin Moor.</dd>
+
+            <dt>Morgawr</dt>
+            <dd>A sea serpent.</dd>
+
+            <dt>Owlman</dt>
+            <dd>A giant owl-like creature.</dd>
+        </dl>
+        <hr>
+        <table>
+            <caption>Superheros and sidekicks</caption>
+            <colgroup>
+                <col>
+                <col span="2" class="batman">
+                <col span="2" class="flash">
+            </colgroup>
+            <tr>
+                <td> </td>
+                <th scope="col">Batman</th>
+                <th scope="col">Robin</th>
+                <th scope="col">The Flash</th>
+                <th scope="col">Kid Flash</th>
+            </tr>
+            <tr>
+                <th scope="row">Skill</th>
+                <td>Smarts</td>
+                <td>Dex, acrobat</td>
+                <td>Super speed</td>
+                <td>Super speed</td>
+            </tr>
+        </table>
+        <hr>
+        <form oninput="result.value=parseInt(a.value)+parseInt(b.value)">
+            <input type="range" id="b" name="b" value="50" /> +
+            <input type="number" id="a" name="a" value="10" /> =
+            <output name="result" for="a b">60</output>
+          </form>
+        <hr>
+    </main>
+    <footer>
+        <p>Baby Site, please wait for growth.<br>
+            <a href="hobbies.html">Hobbies</a><br>
+            <a href="contact.html">Contact</a>
+        </p> 
+    </footer>
+    <div id="cacti"><img src="images/Cacti3.png" alt="cacti doodles" /></div>
     <!-- em > i tag because em tag tells the browser to emphasize this text, likewise strong tag > bold tag -->
-    <p></p> 
+
+
 </body>
 </html>
